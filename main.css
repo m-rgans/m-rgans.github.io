@@ -1,0 +1,25 @@
+
+.highlight {
+	background-color: lightgrey;
+	color: black;
+}
+
+.article {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+table {
+	position: fixed;
+}
+.table_wrapper {
+	display: inline-block;
+	
+	min-width: 240px;
+}
+
+.inline_text_wrapper {
+	offset-anchor: top;
+}
