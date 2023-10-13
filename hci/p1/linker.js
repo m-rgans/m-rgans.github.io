@@ -125,7 +125,8 @@ const links =
 	},
 ];
 
-const HIGHLIGHT_COLOR = "blue";
+const HIGHLIGHT_COLOR = "white";
+const HIGHLIGHT_BG_COLOR = "black";
 
 //maps element ids to a group of ids to highlight
 var link_groups = []
@@ -172,10 +173,12 @@ function set_link_group_active(group_id, active_bool) {
 		if (active_bool) {
 			// set highlight
 			obj.style.color = HIGHLIGHT_COLOR;
+			obj.style.backgroundColor = HIGHLIGHT_BG_COLOR;
 		}
 		else {
 			// clear highlight
 			obj.style.color = "";
+			obj.style.backgroundColor = "";
 		}
 	}
 
