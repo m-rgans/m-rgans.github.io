@@ -1,0 +1,44 @@
+
+.highlight {
+	background-color: lightgrey;
+	color: black;
+}
+
+.article {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+table {
+	position: fixed;
+	user-select: none;
+}
+
+table, th, td {
+	border: 1px solid;
+}
+
+.table_wrapper {
+	display: inline-block;
+	
+	min-width: 240px;
+
+	position: absolute;
+
+	top: 80px;
+	left: 40px;
+}
+
+.inline_text_wrapper {
+	offset-anchor: top;
+}
+
+.table_header {
+	background-color: grey;
+	border: 2px solid red;
+	position: relative;
+	width: 100%;
+	user-select: none;
+}
